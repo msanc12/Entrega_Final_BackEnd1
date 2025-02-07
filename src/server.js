@@ -15,5 +15,5 @@ app.use('/api/products', productRoutes);
 app.use('/api/carts', cartRoutes);
 
 app.listen(3000, () => {
-  console.log('Server running on port 3000');
+  console.log('Server running 3000 .... me wao a dormir');
 });
