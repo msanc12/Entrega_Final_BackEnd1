@@ -1,0 +1,10 @@
+<!-- filepath: src/views/cart.handlebars -->
+<h1>Carrito</h1>
+{{#each cart.products}}
+  <div class="product">
+    <h2>{{this.product.name}}</h2>
+    <p>Precio: {{this.product.price}}</p>
+    <p>Cantidad: {{this.quantity}}</p>
+    <button onclick="removeFromCart('{{../cart._id}}', '{{this.product._id}}')">Eliminar</button>
+  </div>
+{{/each}}
