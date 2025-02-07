@@ -2,12 +2,6 @@
 
 Este proyecto implementa una API para manejar productos y carritos utilizando MongoDB como sistema de persistencia.
 
-## Configuración
-
-1. Clona el repositorio.
-2. Instala las dependencias con `npm install`.
-3. Crea un archivo `.env` con la variable `MONGO_URI` para la conexión a MongoDB.
-4. Inicia el servidor con `npm start`.
 
 ## Endpoints
 
