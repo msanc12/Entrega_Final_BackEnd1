@@ -1,0 +1,20 @@
+{
+  "name": "entrega_final_backend1",
+  "version": "1.0.0",
+  "description": "AYU deme ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: ayuda profe\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "mongoose": "^8.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
